@@ -88,7 +88,7 @@ function App() {
                     <tr className=' grid grid-cols-6 gap-2 ' key={i}>
                       <td>{item.name}</td>
                       <td>{item.last_name}</td>
-                      <td>{item.email}</td>
+                      <td className="w-60">{item.email}</td>
                       <td > {item.mobileno}</td>
                       <td>{item.project}</td>
                       <td className='flex gap-2 text-blue-500'>
